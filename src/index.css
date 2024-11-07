@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    background-color: #0d1224;
+}
+
+body {
+    color: white;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header, footer {
+    background-color: #10172d;
+}
