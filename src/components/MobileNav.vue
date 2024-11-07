@@ -9,7 +9,7 @@
 <template>
   <div class="hidden max-md:block">
     <button @click="toggleDropdown" class="text-3xl">&equiv;</button>
-    <div v-if="isOpen" @mouseleave="closeDropdown" class="bg-slate-900 w-screen h-screen fixed right-0 top-0 z-10 p-6 flex flex-col gap-4">
+    <div v-if="isOpen" @mouseleave="closeDropdown" class="bg-slate-900 pushdown w-max h-max fixed right-0 top-0 z-10 p-6 flex flex-col gap-4">
       <div class="overflow-hidden">
         <button @click="closeDropdown" class="text-3xl float-right">&Cross;</button>
       </div>
@@ -19,3 +19,17 @@
     </div>
   </div>
 </template>
+
+<style scoped>
+.pushdown {
+  animation: pushdown 1s forwards cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes pushdown {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 0;
+  }
+}
+</style>

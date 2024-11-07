@@ -1,5 +1,5 @@
 <template>
-  <button v-if="isVisible" class="scroll-to-top" @click="scrollToTop">🡩</button>
+  <button v-if="isVisible" class="scroll-to-top" @click="scrollToTop">&#129129;</button>
 </template>
 
 <script setup lang="ts">

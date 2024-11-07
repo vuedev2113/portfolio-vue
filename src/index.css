@@ -12,6 +12,25 @@ body {
     overflow-x: hidden;
 }
 
-header, footer {
+header,
+footer {
     background-color: #10172d;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #4444;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8172c7;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
 }

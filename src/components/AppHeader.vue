@@ -7,7 +7,7 @@ import MobileNav from './MobileNav.vue';
   <header class="sticky py-4 px-4 top-0 shadow z-50">
     <div class="flex mx-auto justify-between xl:w-[75%]">
       <router-link class="flex items-center gap-2" to="/">
-        <img src="/favicon.ico" alt="oleh" width="48" height="48" />
+        <img src="/profile.png" alt="oleh" width="48" height="48" class="rounded-full" />
         <h2 class="font-weight-bold">Oleh Zamryha</h2>
       </router-link>
       <mobile-nav />
