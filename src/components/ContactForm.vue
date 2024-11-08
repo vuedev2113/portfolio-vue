@@ -1,9 +1,9 @@
 <template>
-  <div class="">
+  <div class="max-w-xl">
     <p class="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
       Contact with me
     </p>
-    <div class="max-w-3xl text-white rounded-lg border border-[#464c6a] p-3 lg:p-5">
+    <div class="max-w-full text-white rounded-lg border border-[#464c6a] p-3 lg:p-5">
       <p class="text-sm text-[#d3d8e8]">
         {{ "If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests." }}
       </p>

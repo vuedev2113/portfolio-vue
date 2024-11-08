@@ -28,6 +28,15 @@ onBeforeUnmount(() => window.removeEventListener('scroll', toggleButton))
   font-size: 20px;
 }
 
+@media screen and (max-width: 1024px) {
+  .scroll-to-top {
+    bottom: 50px;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
 .scroll-to-top:hover {
   background-color: #1669c2;
 }

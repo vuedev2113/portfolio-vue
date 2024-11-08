@@ -11,9 +11,9 @@ import { contactInfo, socialInfo } from '@/store/store';
       </span>
       <span class="h-36 w-[2px] bg-[#1a1443]" />
     </div>
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+    <div class="flex justify-center max-lg:flex-col gap-8 lg:gap-16 items-center">
       <contact-form />
-      <div class="lg:w-3/4 ">
+      <div class="w-full max-w-md">
         <div class="flex flex-col gap-5 lg:gap-9">
           <p v-for="info, i in contactInfo" :key="i" class="flex items-center gap-3">
             <a
