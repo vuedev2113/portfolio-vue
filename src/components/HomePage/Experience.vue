@@ -25,7 +25,7 @@ import { experiences } from '@/store/store';
     <div class="py-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
         <div class="flex justify-center items-center h-full">
-          <img alt="computer" src="/computer.png" width="100%" height="100%" />
+          <img alt="computer" src="/computer.png" class="w-[360px] h-[320px]" />
         </div>
         <div class="flex flex-col gap-6">
           <div

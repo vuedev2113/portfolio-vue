@@ -28,9 +28,7 @@ import { educations } from '@/store/store';
     <div class="py-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
         <div class="flex justify-center items-start">
-          <div class="w-3/4 h-3/4">
-            <img alt="Education" src="/education.png" width="100%" height="100%" />
-          </div>
+          <img alt="Education" src="/education.png" class="w-[360px] h-[360px]" />
         </div>
         <div class="flex flex-col gap-6">
           <div

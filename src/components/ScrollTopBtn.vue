@@ -19,6 +19,7 @@ onBeforeUnmount(() => window.removeEventListener('scroll', toggleButton))
   right: 20px;
   z-index: 1000;
   background-color: #2196f3;
+  color: #FFFFFF;
   border: none;
   border-radius: 50%;
   width: 50px;
