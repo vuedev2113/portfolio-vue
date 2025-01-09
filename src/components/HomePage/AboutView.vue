@@ -16,8 +16,12 @@
       <div class="flex order-1 lg:order-2 justify-center items-center">
         <img
           alt="Oleh Zamryha"
-          class="rounded-lg max-w-60 w-60 h-[260px] inline transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
-          src="/profile.png"
+          width="270"
+          height="295"
+          loading="lazy"
+          decoding="async"
+          class="rounded-lg max-w-60 w-[240px] h-auto inline transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+          src="/profile-1.webp"
         />
       </div>
     </div>

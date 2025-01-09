@@ -1,16 +1,12 @@
 <script setup lang="ts">
 import { skillsData, socialInfo } from '@/store/store';
+import FristSvg from '../FristSvg.vue';
 </script>
 
 
 <template>
   <section class="relative flex flex-col align-center justify-space-between py-16 lg:py-12">
-    <img
-      alt="Hero"
-      class="absolute top-0 w-full h-auto"
-      src="/hero.svg"
-    />
-
+    <FristSvg />
     <div class="relative grid grid-cols-1 items-center lg:grid-cols-2 lg:gap-12 gap-y-8">
       <div class="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
         <h1 class="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">

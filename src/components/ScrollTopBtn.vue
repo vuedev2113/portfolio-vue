@@ -1,5 +1,7 @@
 <template>
-  <button v-if="isVisible" class="scroll-to-top" @click="scrollToTop">&#129129;</button>
+  <button v-if="isVisible" class="scroll-to-top" @click="scrollToTop">
+    <svg class="w-10 h-10 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="white" aria-hidden="true" viewBox="0 0 24 24" data-testid="ExpandLessIcon"><path d="m12 8-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"></path></svg>
+  </button>
 </template>
 
 <script setup lang="ts">

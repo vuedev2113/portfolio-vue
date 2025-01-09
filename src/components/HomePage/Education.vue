@@ -7,6 +7,8 @@ import { educations } from '@/store/store';
     <img
       alt="Hero"
       class="absolute w-full h-auto"
+      loading="lazy"
+      decoding="async"
       src="/section.svg"
     />
     <div class="flex justify-center -translate-y-[1px]">
@@ -28,7 +30,7 @@ import { educations } from '@/store/store';
     <div class="py-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
         <div class="flex justify-center items-start">
-          <img alt="Education" src="/education.png" class="w-[360px] h-[360px]" />
+          <img alt="Education" width="360" height="338" loading="lazy" decoding="async" src="/education-1.webp" class="w-[360px] h-auto" />
         </div>
         <div class="flex flex-col gap-6">
           <div

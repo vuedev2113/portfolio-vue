@@ -48,6 +48,8 @@
                 <img
                   :alt="skill.title"
                   class="h-full w-auto"
+                  loading="lazy"
+                  decoding="async"
                   height="40"
                   :src="skill.src"
                   width="40"

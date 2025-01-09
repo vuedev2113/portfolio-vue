@@ -9,6 +9,8 @@ import { experiences } from '@/store/store';
       alt="Hero"
       class="absolute"
       src="/section.svg"
+      loading="lazy"
+      decoding="async"
       width="1872"
     />
 
@@ -25,7 +27,7 @@ import { experiences } from '@/store/store';
     <div class="py-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
         <div class="flex justify-center items-center h-full">
-          <img alt="computer" src="/computer.png" class="w-[360px] h-[320px]" />
+          <img alt="computer" width="360" height="270" loading="lazy" decoding="async" src="/computer-1.webp" class="w-[360px] h-auto" />
         </div>
         <div class="flex flex-col gap-6">
           <div

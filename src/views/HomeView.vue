@@ -6,15 +6,17 @@ import Skills from '@/components/HomePage/Skills.vue';
 import Projects from '@/components/HomePage/Projects.vue';
 import Education from '@/components/HomePage/Education.vue';
 import Contact from '@/components/HomePage/Contact.vue'
-import { useHead } from '@unhead/vue';
+import { useSeoMeta } from '@unhead/vue';
 
-useHead({
-  title: "Vue.js Developer",
-  meta: [
-    { name: "hunky:dory", content: "website" },
-    { name: "description", content: "This is the Vue.js developer Portfolio!" },
-    { name: "keyword", content: "Oleh, Vue.js dev, Vue.js developer, Portfolio, developer portfolio" },
-  ],
+useSeoMeta({
+  title: "Full stack Developer",
+  description: "This is the Full stack developer Portfolio!",
+  keywords: "Oleh, Full stack dev, Full stack developer, Portfolio, developer portfolio",
+  author: "Oleh Zamryha",
+  ogType: "website",
+  ogTitle: "Full stack Developer",
+  ogDescription: "This is the Full stack developer Portfolio!",
+  ogImage: "/profile-1.webp",
 })
 </script>
 
