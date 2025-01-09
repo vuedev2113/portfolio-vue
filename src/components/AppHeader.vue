@@ -5,7 +5,7 @@ import MobileNav from './MobileNav.vue';
 
 <template>
   <header class="sticky py-4 px-4 top-0 shadow z-50">
-    <div class="flex mx-auto justify-between xl:w-[75%]">
+    <div class="flex mx-auto justify-between lg:max-w-[1200px]">
       <router-link class="flex items-center gap-2" to="/">
         <img src="/small-avatar.webp" alt="oleh" width="48" height="48" class="w-[48px] h-[48px] rounded-full" />
         <h2 class="font-weight-bold">Oleh Zamryha</h2>

@@ -9,13 +9,13 @@ import FristSvg from '../FristSvg.vue';
     <FristSvg />
     <div class="relative grid grid-cols-1 items-center lg:grid-cols-2 lg:gap-12 gap-y-8">
       <div class="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
-        <h1 class="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
-          Hello, <br>
-          <span>This is </span>
-          <span class="text-pink-500">Oleh Zamryha</span>
-          <span>, I'm a Professional </span>
-          <span class="text-[#16f2b3]">Senior Vue.js developer.</span>
-        </h1>
+        <div class="text-3xl font-bold text-white md:font-extrabold lg:text-4xl">
+          <p>Hello!</p>
+          <p class="inline-block">This is </p>
+          <h1 class="text-pink-500 inline-block ml-2">Oleh Zamryha</h1>
+          <p class="block">I'm a Professional </p>
+          <h2 class="text-[#16f2b3] block">Senior Full stack developer</h2>
+        </div>
 
         <div class="my-12 flex items-center gap-5">
           <a

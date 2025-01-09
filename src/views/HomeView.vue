@@ -21,7 +21,7 @@ useSeoMeta({
 </script>
 
 <template>
-  <main class="px-4 mx-auto lg:w-[75%]">
+  <main class="px-4 mx-auto max-w-[1200px]">
     <main-visual />
     <about-view />
     <experience />

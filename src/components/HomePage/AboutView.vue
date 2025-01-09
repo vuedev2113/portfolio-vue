@@ -10,19 +10,17 @@
       <div class="order-2 lg:order-1">
         <h3 class="font-medium mb-5 text-[#16f2b3] text-xl sm:text-lg uppercase">Who I am?</h3>
         <p class="text-gray-200 text-sm lg:text-lg">
-          My name is Oleh Zamryha. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.
+          As a Highly skilled Full Stack Developer with over 8+ years of professional experience in developing and
+          maintaining web applications, I specialize in building dynamic, high-performance web applications designed to
+          meet client-specific needs.<br>
+          Passionate about leveraging cutting-edge technologies to deliver scalable, user-centric solutions and solve
+          complex problems.
         </p>
       </div>
       <div class="flex order-1 lg:order-2 justify-center items-center">
-        <img
-          alt="Oleh Zamryha"
-          width="270"
-          height="295"
-          loading="lazy"
-          decoding="async"
+        <img alt="Oleh Zamryha" width="270" height="295" loading="lazy" decoding="async"
           class="rounded-lg max-w-60 w-[240px] h-auto inline transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
-          src="/profile-1.webp"
-        />
+          src="/profile-1.webp" />
       </div>
     </div>
   </section>
